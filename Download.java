@@ -5,13 +5,11 @@ import java.net.URL;
 
 // This class downloads a file from a URL.
 class Download implements Runnable {
-     
     // Max size of download buffer.
     private static final int MAX_BUFFER_SIZE = 1024;
      
     // These are the status names.
-    public static final String STATUSES[] = {"Downloading",
-    "Paused", "Complete", "Cancelled", "Error"};
+    public static final String STATUSES[] = {"Downloading","Paused", "Complete", "Cancelled", "Error"};
      
     // These are the status codes.
     public static final int DOWNLOADING = 0;
